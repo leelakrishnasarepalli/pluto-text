@@ -2,6 +2,11 @@
 
 Pluto Text is a Chrome Manifest V3 browser extension for manual long-form draft generation in browser text fields. The current implementation remains explicit-action only: no suggestion-on-focus, no floating UI, and no automatic generation or insertion behavior.
 
+https://youtu.be/FogDwwy2Usg
+
+[![Plulto CLI Demo](https://github.com/user-attachments/assets/21fc3afa-c05f-43da-966c-c70105ab188a)](https://youtu.be/FogDwwy2Usg)
+
+
 ## Tech stack
 
 - TypeScript with strict mode
