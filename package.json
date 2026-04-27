@@ -1,0 +1,28 @@
+{
+  "name": "pluto-text",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Chrome Manifest V3 extension for manual long-form draft generation in browser text fields.",
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "node build.mjs --watch",
+    "mock-api": "node --experimental-strip-types src/mock-api/server.ts",
+    "package-extension": "node scripts/package-extension.mjs",
+    "test": "node --test --experimental-strip-types src/**/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.292",
+    "@types/node": "^24.10.1",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "esbuild": "^0.23.1",
+    "typescript": "^5.5.4"
+  }
+}
